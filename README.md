@@ -10,6 +10,8 @@ Ovaj projekat analizira i upoređuje performanse ovih algoritama na različitim 
 
 ## Algoritmi
 
+
+
 ### Izjednačavanje Histograma (HE)
 
 Izjednačavanje histograma transformiše vrednosti intenziteta slike tako da budu ravnomerno raspoređene po celom mogućem rasponu.
@@ -26,10 +28,13 @@ QDHE poboljšava kontrast slike koristeći particionisanje histograma, skraćiva
 
 CLAHE poboljšava kontrast slike i smanjuje šum koristeći adaptivnu podelu slike u male regione i primenom ograničenja na histogram svakog regiona.
 
+![Rezultati primena ovih metoda na razlicitim slikama](show-image.jpg)
+*Rezultati primena metoda na medicinskim slikama.*
+
 
 ## Dataset
 
-Za analizu su korišćene slike iz skupa podataka sa [Kaggle](https://www.kaggle.com/datasets/theblackmamba31/landscape-image-colorization).
+Za analizu su korišćene slike iz skupa podataka sa [Kaggle](https://www.kaggle.com/datasets/ibombonato/xray-body-images-in-png-unifesp-competion). Ovaj skup se sastoji od 743 slika u png formatu koje predstavljaju rendgenske snimke različitih delova čovekovog tela. 
 
 ## Literatura
 

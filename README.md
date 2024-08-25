@@ -28,8 +28,9 @@ QDHE poboljšava kontrast slike koristeći particionisanje histograma, skraćiva
 
 CLAHE poboljšava kontrast slike i smanjuje šum koristeći adaptivnu podelu slike u male regione i primenom ograničenja na histogram svakog regiona.
 
-![Rezultati primena ovih metoda na razlicitim slikama](show-image.jpg)
-*Rezultati primena metoda na medicinskim slikama.*
+## Rezultati primena ovih algoritama
+
+<img src="show-image.png" alt="Rezultati primena metoda" width="600"/>
 
 
 ## Dataset
